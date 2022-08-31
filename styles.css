@@ -1,0 +1,52 @@
+body {
+    background-color: #202020;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+#kysymys {
+    background-color: #00cccc;
+    border-radius: 30px;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 3rem 2rem 1rem 2rem;
+    font-family: Arial;
+    font-size: 2rem;
+}
+
+.vaihtoehto {
+    background-color: #BCD4EF;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 2rem 10rem 1rem 10rem;
+    font-family: Arial;
+    font-size: 1.5rem;
+}
+
+.vaihtoehto:hover {
+    background-color: #182D92;
+    color: white;
+}
+#nappi {
+    padding: 3rem 0.75rem 3rem 0.75rem;
+    margin: 3rem 3rem 3rem 3rem;
+    border-radius: 50rem;
+    border-color: red;
+    border-width: 5px;
+    font-family: Verdana;
+    font-size: 2rem;
+    font-weight: 600;
+    background: #ffccff;
+}
+#nappi:hover {
+    background: red;
+    border-color: orangered;
+}
+#nappirivi {
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
